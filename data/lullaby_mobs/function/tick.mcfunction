@@ -1,0 +1,18 @@
+# Black Wolf
+execute as @e[tag=lullaby_mobs.black_wolf] at @s run function lullaby_mobs:mobs/black_wolf/tick
+
+# Blaze Tower
+execute as @e[tag=lullaby_mobs.blaze_tower] at @s run function lullaby_mobs:mobs/blaze_tower/tick
+
+# Ent
+execute as @e[tag=lullaby_mobs.ent] at @s run function lullaby_mobs:mobs/ent/tick
+
+# Thunder Drowned
+execute as @e[type=trident,nbt={inGround:1b}] at @s on origin if entity @s[tag=lullaby_mobs.thunder_drowned] as @e[type=trident,limit=1,sort=nearest] run function lullaby_mobs:mobs/thunder_drowned/thunder
+
+# Angel
+execute as @e[tag=lullaby_mobs.angel] at @s run function lullaby_mobs:mobs/angel/tick
+
+# Stalker Block
+execute as @e[tag=lullaby_mobs.stalker_block] at @s run function lullaby_mobs:mobs/stalker_block/tick
+execute as @e[tag=lullaby_mobs.stalker_block.block] at @s run function lullaby_mobs:mobs/stalker_block/block/tick

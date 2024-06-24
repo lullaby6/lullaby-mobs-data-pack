@@ -1,0 +1,16 @@
+tag @s add lullaby_mobs.golden_skeleton
+
+item replace entity @s armor.head with player_head[custom_name='{"text":"Golden Skeleton"}',profile={id:[I;30324814,-124108764,-1709806701,437631414],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTNlYmQwMTAxNjJhNDRiY2NiNmI2NDY3OWZhYTk2ZjBmOWVlYTNlZDQ4NDg5MGVlZWIwYjFmYTJmNzQ3YWFkNyJ9fX0="}]}] 1
+item replace entity @s armor.chest with golden_chestplate[trim={material:"minecraft:gold",pattern:"minecraft:wild"}] 1
+item replace entity @s armor.legs with golden_leggings[trim={material:"minecraft:gold",pattern:"minecraft:wild"}] 1
+item replace entity @s armor.feet with golden_boots[trim={material:"minecraft:gold",pattern:"minecraft:wild"}] 1
+item replace entity @s weapon.mainhand with golden_sword 1
+item replace entity @s weapon.offhand with golden_sword 1
+
+attribute @s minecraft:generic.max_health base set 40
+attribute @s minecraft:generic.knockback_resistance base set 0.5
+attribute @s minecraft:generic.movement_speed base set 0.3
+
+effect give @s invisibility infinite 0 true
+
+data merge entity @s {CustomName:'{"text":"Golden Skeleton"}',DeathLootTable:"minecraft:blocks/raw_gold_block",Health:40f,ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],HandDropChances:[0.000F,0.000F]}

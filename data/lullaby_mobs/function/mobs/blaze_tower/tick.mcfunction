@@ -1,0 +1,2 @@
+execute if entity @s[nbt={Invulnerable:0b}] if predicate utils:has/passenger run data merge entity @s {Invulnerable:1b}
+execute if entity @s[nbt={Invulnerable:1b}] unless predicate utils:has/passenger run data merge entity @s {Invulnerable:0b}
