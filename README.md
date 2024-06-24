@@ -1,4 +1,4 @@
-# Lullaby's Mobs Data-pack
+# Lullaby's Mobs Data-Pack
 
 ## List of mobs
 
