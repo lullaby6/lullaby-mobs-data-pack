@@ -1,0 +1,1 @@
+execute if entity @a[tag=utils.team_player,distance=..25] run function lullaby_mobs:mobs/corrupted_iron_golem/angry

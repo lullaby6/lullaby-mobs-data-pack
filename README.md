@@ -9,3 +9,4 @@
 - Golden Skeleton
 - Ent
 - Thunder Drowned
+- Corrupted Iron Golem
