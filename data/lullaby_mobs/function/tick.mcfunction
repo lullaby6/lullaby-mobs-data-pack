@@ -18,4 +18,4 @@ execute as @e[tag=lullaby_mobs.stalker_block] at @s run function lullaby_mobs:mo
 execute as @e[tag=lullaby_mobs.stalker_block.block] at @s run function lullaby_mobs:mobs/stalker_block/block/tick
 
 # Corrupted Iron Golem
-execute as @e[tag=lullaby_mobs.currupted_iron_golem] at @s run function lullaby_mobs:mobs/currupted_iron_golem/tick
+execute as @e[tag=lullaby_mobs.corrupted_iron_golem] at @s run function lullaby_mobs:mobs/corrupted_iron_golem/tick
