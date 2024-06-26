@@ -1,1 +1,0 @@
-execute summon vex run function lullaby_mobs:mobs/ghost/data

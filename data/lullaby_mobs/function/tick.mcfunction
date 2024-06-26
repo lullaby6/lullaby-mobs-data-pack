@@ -19,3 +19,8 @@ execute as @e[tag=lullaby_mobs.stalker_block.block] at @s run function lullaby_m
 
 # Corrupted Iron Golem
 execute as @e[tag=lullaby_mobs.corrupted_iron_golem] at @s run function lullaby_mobs:mobs/corrupted_iron_golem/tick
+
+# Iso
+execute as @e[tag=lullaby_mobs.iso.block_display] unless predicate utils:is/riding run kill @s
+
+execute as @e[tag=lullaby_mobs.iso] at @s run function lullaby_mobs:mobs/iso/tick
