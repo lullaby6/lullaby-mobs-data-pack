@@ -10,3 +10,4 @@
 - Ent
 - Thunder Drowned
 - Corrupted Iron Golem
+- Iso
