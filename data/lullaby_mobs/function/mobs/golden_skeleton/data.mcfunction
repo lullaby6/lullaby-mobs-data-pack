@@ -1,4 +1,5 @@
 tag @s add lullaby_mobs.golden_skeleton
+tag @s add lullaby_mobs.natural_spawn.bypass
 
 item replace entity @s armor.head with player_head[custom_name='{"text":"Golden Skeleton"}',profile={id:[I;30324814,-124108764,-1709806701,437631414],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTNlYmQwMTAxNjJhNDRiY2NiNmI2NDY3OWZhYTk2ZjBmOWVlYTNlZDQ4NDg5MGVlZWIwYjFmYTJmNzQ3YWFkNyJ9fX0="}]}] 1
 item replace entity @s armor.chest with golden_chestplate[trim={material:"minecraft:gold",pattern:"minecraft:wild"}] 1

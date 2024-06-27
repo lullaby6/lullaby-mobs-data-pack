@@ -1,4 +1,5 @@
 tag @s add lullaby_mobs.corrupted_iron_golem
+tag @s add lullaby_mobs.natural_spawn.bypass
 
 attribute @s minecraft:generic.max_health base set 150
 attribute @s minecraft:generic.follow_range base set 100

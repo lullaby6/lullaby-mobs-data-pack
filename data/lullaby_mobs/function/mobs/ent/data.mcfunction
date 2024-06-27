@@ -1,4 +1,5 @@
 tag @s add lullaby_mobs.ent
+tag @s add lullaby_mobs.natural_spawn.bypass
 
 item replace entity @s armor.head with player_head[custom_name='{"text":"Ent"}',profile={id:[I;-253484362,2014135370,-1978222897,-1620210661],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDA0OTQ4NGNjMTY2OTRkNTg1MjFiNGU5YzFjOGUzMzM4NjhjMDE0YjE1YTRkN2Q2NzlmNDMxNGQyMDJmYjkwMiJ9fX0="}]}] 1
 item replace entity @s armor.chest with leather_chestplate[dyed_color=2966303,trim={material:"minecraft:netherite",pattern:"minecraft:wild"}] 1

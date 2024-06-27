@@ -1,4 +1,5 @@
 tag @s add lullaby_mobs.stalker_block
+tag @s add lullaby_mobs.natural_spawn.bypass
 
 attribute @s minecraft:generic.follow_range base set 100
 attribute @s minecraft:generic.movement_speed base set 0.175

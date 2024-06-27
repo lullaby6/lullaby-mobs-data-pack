@@ -1,4 +1,5 @@
 tag @s add lullaby_mobs.thunder_drowned
+tag @s add lullaby_mobs.natural_spawn.bypass
 
 item replace entity @s armor.head with turtle_helmet[trim={material:"minecraft:emerald",pattern:"minecraft:tide"}] 1
 item replace entity @s armor.chest with leather_chestplate[dyed_color=4503369,trim={material:"minecraft:emerald",pattern:"minecraft:tide"}] 1

@@ -1,4 +1,5 @@
 tag @s add lullaby_mobs.black_wolf
+tag @s add lullaby_mobs.natural_spawn.bypass
 
 attribute @s minecraft:generic.max_health base set 60
 attribute @s minecraft:generic.attack_damage base set 10
