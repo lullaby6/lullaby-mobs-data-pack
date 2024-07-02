@@ -1,3 +1,6 @@
+scoreboard objectives add lullaby_mobs.settings dummy
+execute unless score loaded lullaby_mobs.settings matches 1 run function lullaby_mobs:settings/load
+
 scoreboard objectives add lullaby_mobs.entity.sound.0 dummy
 scoreboard objectives add lullaby_mobs.entity.sound.1 dummy
 scoreboard objectives add lullaby_mobs.entity.sound.2 dummy

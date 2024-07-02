@@ -1,5 +1,5 @@
 # Natural Spawn
-execute as @e[type=#lullaby_mobs:natural_spawn,tag=!lullaby_mobs.natural_spawn.bypass,tag=!lullaby_mobs.natural_spawn.procced] run function lullaby_mobs:natural_spawn/procced
+execute if score mobs_spawn lullaby_mobs.settings matches 1 as @e[type=#lullaby_mobs:natural_spawn,tag=!lullaby_mobs.natural_spawn.bypass,tag=!lullaby_mobs.natural_spawn.procced] run function lullaby_mobs:natural_spawn/procced
 
 # Black Wolf
 execute as @e[tag=lullaby_mobs.black_wolf] at @s run function lullaby_mobs:mobs/black_wolf/tick

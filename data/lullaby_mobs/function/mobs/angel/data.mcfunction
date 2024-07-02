@@ -11,4 +11,7 @@ attribute @s minecraft:generic.max_health base set 30
 
 effect give @s invisibility infinite 0 true
 
-data merge entity @s {CustomName:'{"text":"Angel"}',Health:30f,ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],HandDropChances:[0.000F,0.000F],Silent:1b,DeathLootTable:"lullaby_mobs:mobs/angel"}
+data merge entity @s {CustomName:'{"text":"Angel"}',Health:30f,ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],HandDropChances:[0.000F,0.000F],Silent:1b}
+
+execute if score mobs_loot lullaby_mobs.settings matches 0 run data modify entity @s DeathLootTable set value "minecraft:empty"
+execute if score mobs_loot lullaby_mobs.settings matches 1 run data modify entity @s DeathLootTable set value "lullaby_mobs:mobs/angel"
