@@ -27,3 +27,15 @@ execute as @e[tag=lullaby_mobs.corrupted_iron_golem] at @s run function lullaby_
 execute as @e[tag=lullaby_mobs.iso.block_display] unless predicate utils:is/riding run kill @s
 
 execute as @e[tag=lullaby_mobs.iso] at @s run function lullaby_mobs:mobs/iso/tick
+
+# Spawner Zombie
+execute as @e[tag=lullaby_mobs.spawner_zombie] at @s run function lullaby_mobs:mobs/spawner_zombie/tick
+
+# Minotaur
+execute as @e[tag=lullaby_mobs.minotaur] at @s run function lullaby_mobs:mobs/minotaur/tick
+
+# Yeti
+execute as @e[tag=lullaby_mobs.yeti] at @s run function lullaby_mobs:mobs/yeti/tick
+
+# Skeleton Huner
+execute as @e[tag=lullaby_mobs.skeleton_hunter] at @s run function lullaby_mobs:mobs/skeleton_hunter/tick
