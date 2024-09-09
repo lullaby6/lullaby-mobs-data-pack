@@ -2,12 +2,17 @@
 
 ## List of mobs
 
+- Angel
 - Black Wolf
 - Blaze Tower
-- Angel
-- Stalker Block
-- Golden Skeleton
+- Corrupted Irom Golem
 - Ent
-- Thunder Drowned
-- Corrupted Iron Golem
+- Golden Skeleton
 - Iso
+- Minotaur
+- Mummy
+- Skeleton Hunter
+- Spawner Zombie
+- Stalker Block
+- Thunder Drowned
+- Yeti
