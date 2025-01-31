@@ -1,3 +1,5 @@
+execute unless score load utils.config matches 1 run function lullaby_mobs:requeriments/utils
+
 scoreboard objectives add lullaby_mobs.settings dummy
 execute unless score load lullaby_mobs.settings matches 1 run function lullaby_mobs:settings/reset
 
