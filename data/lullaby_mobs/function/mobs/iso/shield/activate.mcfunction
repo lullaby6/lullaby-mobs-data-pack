@@ -12,4 +12,4 @@ effect give @s minecraft:regeneration infinite 255 true
 effect give @s minecraft:fire_resistance infinite 255 true
 effect give @s minecraft:water_breathing infinite 255 true
 
-attribute @s minecraft:generic.knockback_resistance base set 1.0
+attribute @s minecraft:knockback_resistance base set 1.0

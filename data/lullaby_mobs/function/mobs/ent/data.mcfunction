@@ -7,11 +7,11 @@ item replace entity @s armor.legs with leather_leggings[dyed_color=5390118,trim=
 item replace entity @s armor.feet with leather_boots[dyed_color=2966303,trim={material:"minecraft:netherite",pattern:"minecraft:wild"}] 1
 item replace entity @s weapon.mainhand with wooden_axe 1
 
-attribute @s minecraft:generic.max_health base set 60
-attribute @s minecraft:generic.knockback_resistance base set 1.0
-attribute @s minecraft:generic.follow_range base set 7.5
-attribute @s minecraft:generic.attack_damage base set 2
-attribute @s minecraft:generic.scale base set 1.125
+attribute @s minecraft:max_health base set 60
+attribute @s minecraft:knockback_resistance base set 1.0
+attribute @s minecraft:follow_range base set 7.5
+attribute @s minecraft:attack_damage base set 2
+attribute @s minecraft:scale base set 1.125
 
 effect give @s invisibility infinite 0 true
 

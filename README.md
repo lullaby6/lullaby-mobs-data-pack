@@ -1,4 +1,4 @@
-# Lullaby's Mobs Data-Pack
+# Lullaby's Mobs
 
 ## List of mobs
 
@@ -16,3 +16,15 @@
 - Stalker Block
 - Thunder Drowned
 - Yeti
+
+## To Do
+
+- Triple Skeleton
+- Shadow
+- Necromancer
+- Mother Spider
+- Cobweb Spider
+- Chariot
+- Enye
+- Bloody Skeleton
+- Spectral Assassin

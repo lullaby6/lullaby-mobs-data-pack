@@ -8,12 +8,12 @@ item replace entity @s armor.feet with netherite_boots[enchantments={levels:{"mi
 item replace entity @s weapon.mainhand with netherite_axe[enchantments={levels:{"minecraft:fire_aspect":2}}] 1
 item replace entity @s weapon.offhand with netherite_axe[enchantments={levels:{"minecraft:fire_aspect":2}}] 1
 
-attribute @s minecraft:generic.max_health base set 80
-attribute @s minecraft:generic.attack_damage base set 10
-attribute @s minecraft:generic.movement_speed base set 0.35
-attribute @s minecraft:generic.follow_range base set 50
-attribute @s minecraft:generic.knockback_resistance base set 1.0
-attribute @s minecraft:generic.scale base set 1.2
+attribute @s minecraft:max_health base set 80
+attribute @s minecraft:attack_damage base set 10
+attribute @s minecraft:movement_speed base set 0.35
+attribute @s minecraft:follow_range base set 50
+attribute @s minecraft:knockback_resistance base set 1.0
+attribute @s minecraft:scale base set 1.2
 
 effect give @s invisibility infinite 0 true
 

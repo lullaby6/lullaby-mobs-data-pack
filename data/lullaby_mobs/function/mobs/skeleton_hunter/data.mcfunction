@@ -7,9 +7,9 @@ item replace entity @s armor.feet with chainmail_boots[trim={material:"minecraft
 item replace entity @s weapon.mainhand with stone_axe[enchantments={levels:{"minecraft:knockback":3}}] 1
 item replace entity @s weapon.offhand with tipped_arrow[potion_contents={potion:"minecraft:strong_poison"}] 1
 
-attribute @s minecraft:generic.follow_range base set 50
-attribute @s minecraft:generic.max_health base set 40
-attribute @s minecraft:generic.knockback_resistance base set 0.5
-attribute @s minecraft:generic.movement_speed base set 0.3
+attribute @s minecraft:follow_range base set 50
+attribute @s minecraft:max_health base set 40
+attribute @s minecraft:knockback_resistance base set 0.5
+attribute @s minecraft:movement_speed base set 0.3
 
 data merge entity @s {DeathLootTable:"minecraft:chests/jungle_temple",Health:40f,ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],HandDropChances:[0.000F,0.000F]}

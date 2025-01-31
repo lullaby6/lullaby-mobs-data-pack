@@ -3,7 +3,7 @@ tag @s remove lullaby_mobs.ent.tree
 execute if block ~ ~1 ~ oak_log run setblock ~ ~1 ~ minecraft:air
 execute if block ~ ~ ~ oak_log run setblock ~ ~ ~ minecraft:air
 
-attribute @s minecraft:generic.scale base set 1.125
+attribute @s minecraft:scale base set 1.125
 
 data merge entity @s {NoAI:0b,Invulnerable:0b}
 

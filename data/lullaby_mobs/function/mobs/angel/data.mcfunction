@@ -6,7 +6,7 @@ item replace entity @s armor.chest with leather_chestplate[dyed_color=16314341,t
 item replace entity @s armor.feet with leather_boots[dyed_color=16314341,trim={material:"minecraft:gold",pattern:"minecraft:spire"}] 1
 item replace entity @s weapon.mainhand with bow[enchantments={levels:{"minecraft:power":1,"minecraft:punch":1}}] 1
 
-attribute @s minecraft:generic.max_health base set 30
+attribute @s minecraft:max_health base set 30
 
 effect give @s invisibility infinite 0 true
 

@@ -3,7 +3,7 @@ tag @s add lullaby_mobs.ent.tree
 setblock ~ ~1 ~ minecraft:oak_log
 setblock ~ ~ ~ minecraft:oak_log
 
-attribute @s minecraft:generic.scale base set 0
+attribute @s minecraft:scale base set 0
 
 data merge entity @s {NoAI:1b,Invulnerable:1b,Health:60f}
 

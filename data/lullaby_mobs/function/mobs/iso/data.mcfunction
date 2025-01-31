@@ -6,10 +6,10 @@ item replace entity @s armor.chest with iron_chestplate[trim={material:"minecraf
 item replace entity @s armor.feet with iron_boots[trim={material:"minecraft:amethyst",pattern:"minecraft:coast"}] 1
 item replace entity @s weapon.mainhand with iron_sword 1
 
-attribute @s minecraft:generic.max_health base set 60
-attribute @s minecraft:generic.knockback_resistance base set 0.5
-attribute @s minecraft:generic.movement_speed base set 0.3
-attribute @s minecraft:generic.scale base set 1.01
+attribute @s minecraft:max_health base set 60
+attribute @s minecraft:knockback_resistance base set 0.5
+attribute @s minecraft:movement_speed base set 0.3
+attribute @s minecraft:scale base set 1.01
 
 effect give @s invisibility infinite 0 true
 

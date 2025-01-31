@@ -7,9 +7,9 @@ item replace entity @s armor.legs with chainmail_leggings[trim={material:"minecr
 item replace entity @s armor.feet with chainmail_boots[trim={material:"minecraft:netherite",pattern:"minecraft:ward"}] 1
 item replace entity @s weapon.mainhand with iron_axe[enchantments={levels:{"minecraft:knockback":2}}] 1
 
-attribute @s minecraft:generic.max_health base set 60
-attribute @s minecraft:generic.knockback_resistance base set 0.75
-attribute @s minecraft:generic.movement_speed base set 0.185
+attribute @s minecraft:max_health base set 60
+attribute @s minecraft:knockback_resistance base set 0.75
+attribute @s minecraft:movement_speed base set 0.185
 
 effect give @s regeneration infinite 0 true
 

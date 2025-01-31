@@ -8,9 +8,9 @@ item replace entity @s armor.feet with golden_boots[trim={material:"minecraft:go
 item replace entity @s weapon.mainhand with golden_sword 1
 item replace entity @s weapon.offhand with golden_sword 1
 
-attribute @s minecraft:generic.max_health base set 40
-attribute @s minecraft:generic.knockback_resistance base set 0.5
-attribute @s minecraft:generic.movement_speed base set 0.3
+attribute @s minecraft:max_health base set 40
+attribute @s minecraft:knockback_resistance base set 0.5
+attribute @s minecraft:movement_speed base set 0.3
 
 effect give @s invisibility infinite 0 true
 

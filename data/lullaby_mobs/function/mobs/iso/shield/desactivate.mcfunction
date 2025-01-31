@@ -10,6 +10,6 @@ effect clear @s minecraft:regeneration
 effect clear @s minecraft:fire_resistance
 effect clear @s minecraft:water_breathing
 
-attribute @s minecraft:generic.knockback_resistance base set 0.5
+attribute @s minecraft:knockback_resistance base set 0.5
 
 effect give @s minecraft:mining_fatigue 5 0 true

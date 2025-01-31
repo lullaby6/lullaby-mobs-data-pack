@@ -37,5 +37,5 @@ execute as @e[tag=lullaby_mobs.minotaur] at @s run function lullaby_mobs:mobs/mi
 # Yeti
 execute as @e[tag=lullaby_mobs.yeti] at @s run function lullaby_mobs:mobs/yeti/tick
 
-# Skeleton Huner
+# Skeleton Hunter
 execute as @e[tag=lullaby_mobs.skeleton_hunter] at @s run function lullaby_mobs:mobs/skeleton_hunter/tick
