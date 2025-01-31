@@ -1,1 +1,1 @@
-execute summon skeleton run function lullaby_mobs:mobs/spectral_assassin/data
+execute summon zombie run function lullaby_mobs:mobs/spectral_assassin/data

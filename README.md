@@ -16,6 +16,7 @@
 - Stalker Block
 - Thunder Drowned
 - Yeti
+- Spectral Assassin
 
 ## To Do
 
@@ -27,4 +28,3 @@
 - Chariot
 - Enye
 - Bloody Skeleton
-- Spectral Assassin
