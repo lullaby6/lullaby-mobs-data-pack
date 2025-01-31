@@ -34,6 +34,7 @@ Version: `1.21.4`
 - Chariot
 - Enye
 - Bloody Skeleton
+- Living Cactus
 
 ## Commands
 
