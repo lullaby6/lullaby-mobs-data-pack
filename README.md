@@ -58,3 +58,7 @@ Enable:
 ```mcfunction
 /datapack enable "file/lullaby-mobs.zip"
 ```
+
+## License
+
+MIT
