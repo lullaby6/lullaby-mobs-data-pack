@@ -1,24 +1,30 @@
 # Lullaby's Mobs
 
-## List of mobs
+More custom mobs!
 
-- Angel
-- Black Wolf
-- Blaze Tower
+Version: `1.21.4`
+
+## Mobs
+
+### List of mobs
+
+- Angel (naturally spawn)
+- Black Wolf (naturally spawn)
+- Blaze Tower (naturally spawn)
 - Corrupted Irom Golem
-- Ent
-- Golden Skeleton
-- Iso
-- Minotaur
-- Mummy
-- Skeleton Hunter
-- Spawner Zombie
-- Stalker Block
-- Thunder Drowned
-- Yeti
-- Spectral Assassin
+- Ent (naturally spawn)
+- Golden Skeleton (naturally spawn)
+- Iso (naturally spawn)
+- Minotaur (naturally spawn)
+- Mummy (naturally spawn)
+- Skeleton Hunter (naturally spawn)
+- Spawner Zombie (naturally spawn)
+- Stalker Block (naturally spawn)
+- Thunder Drowned (naturally spawn)
+- Yeti (naturally spawn)
+- Spectral Assassin (naturally spawn)
 
-## To Do
+### To Do
 
 - Triple Skeleton
 - Shadow
@@ -28,3 +34,26 @@
 - Chariot
 - Enye
 - Bloody Skeleton
+
+## Commands
+
+Settings:
+
+- Toggle Naturally Spawn Mobs
+- Toggle Mobs Loot
+
+```mcfunction
+/function lullaby_mobs:settings
+```
+
+Disable:
+
+```mcfunction
+/datapack disable "file/lullaby-mobs.zip"
+```
+
+Enable:
+
+```mcfunction
+/datapack enable "file/lullaby-mobs.zip"
+```

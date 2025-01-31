@@ -1,6 +1,6 @@
 function utils:player/clear_chat
 
-playsound minecraft:ui.button.click master @a ~ ~ ~ 1 2
+playsound minecraft:ui.button.click master @a ~ ~ ~ .5 2
 
 tellraw @s [{"text":"Lullaby's Mobs ","color":"green"},{"text":"Settings:","color":"gray"}]
 

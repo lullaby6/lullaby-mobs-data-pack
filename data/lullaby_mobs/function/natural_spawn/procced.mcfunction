@@ -8,6 +8,7 @@ execute if entity @s[type=husk] at @s if block ~ ~-1 ~ sand if predicate utils:r
 
 execute if entity @s[type=drowned] if predicate utils:random/0.05 at @s run return run function lullaby_mobs:natural_spawn/spawn {"mob":"thunder_drowned"}
 
+execute if entity @s[type=skeleton] if predicate utils:random/0.01 at @s run return run function lullaby_mobs:natural_spawn/spawn {"mob":"spectral_assassin"}
 execute if entity @s[type=skeleton] if predicate utils:random/0.05 at @s run return run function lullaby_mobs:natural_spawn/spawn {"mob":"golden_skeleton"}
 execute if entity @s[type=skeleton] if predicate utils:random/0.05 at @s run return run function lullaby_mobs:natural_spawn/spawn {"mob":"angel"}
 execute if entity @s[type=skeleton] if predicate utils:random/0.01 at @s run return run function lullaby_mobs:natural_spawn/spawn {"mob":"iso"}
@@ -20,3 +21,5 @@ execute if entity @s[type=wolf] if predicate utils:random/0.05 at @s run return 
 execute if dimension minecraft:the_nether if entity @s[type=blaze] if predicate utils:random/0.01 at @s run return run function lullaby_mobs:natural_spawn/spawn {"mob":"blaze_tower"}
 
 execute if dimension minecraft:the_nether if entity @s[type=piglin_brute] if predicate utils:random/0.01 at @s run return run function lullaby_mobs:natural_spawn/spawn {"mob":"minotaur"}
+
+execute if biome ~ ~ ~ minecraft:desert if entity @s[type=husk] if predicate utils:random/0.05 at @s run return run function lullaby_mobs:natural_spawn/spawn {"mob":"mummy"}
