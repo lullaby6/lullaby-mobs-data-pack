@@ -30,24 +30,6 @@ Version: `1.21.4`
 - Blaze Knight (naturally spawn)
 - Dark Wither Skeleton (naturally spawn)
 
-### To Do
-
-- Triple Skeleton
-- Shadow
-- Necromancer
-- Mother Spider
-- Cobweb Spider
-- Chariot
-- Enye
-- Bloody Skeleton
-- Living Cactus
-- Demonic Eye
-- Rush
-- Oni
-- Sculk Knight
-- Guardian Robot
-- Bloody Skeleton
-
 ## Commands
 
 Settings:
@@ -74,3 +56,21 @@ Enable:
 ## License
 
 MIT
+
+## Mobs To Do
+
+- Triple Skeleton
+- Shadow
+- Necromancer
+- Mother Spider
+- Cobweb Spider
+- Chariot
+- Enye
+- Bloody Skeleton
+- Living Cactus
+- Demonic Eye
+- Rush
+- Oni
+- Sculk Knight
+- Guardian Robot
+- Bloody Skeleton
