@@ -16,4 +16,7 @@ attribute @s minecraft:scale base set 1.1
 effect give @s minecraft:invisibility infinite 0 true
 effect give @s minecraft:fire_resistance infinite 0 true
 
-data merge entity @s {CustomName:'{"text":"Blaze Knight"}',DeathLootTable:"minecraft:chests/nether_bridge",Health:40f,IsImmuneToZombification:1b,Silent:1b,ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],HandDropChances:[0.000F,0.000F]}
+data merge entity @s {CustomName:'{"text":"Blaze Knight"}',Health:40f,IsImmuneToZombification:1b,Silent:1b,ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],HandDropChances:[0.000F,0.000F]}
+
+execute if score mobs_loot lullaby_mobs.settings matches 0 run data modify entity @s DeathLootTable set value "minecraft:empty"
+execute if score mobs_loot lullaby_mobs.settings matches 1 run data modify entity @s DeathLootTable set value "minecraft:chests/nether_bridge"

@@ -13,4 +13,7 @@ attribute @s minecraft:follow_range base set 50
 attribute @s minecraft:knockback_resistance base set 1.0
 attribute @s minecraft:scale base set 1.1
 
-data merge entity @s {DeathLootTable:"minecraft:blocks/wither_skeleton_skull",Health:100f,ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],HandDropChances:[0.000F,0.000F]}
+data merge entity @s {Health:100f,ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],HandDropChances:[0.000F,0.000F]}
+
+execute if score mobs_loot lullaby_mobs.settings matches 0 run data modify entity @s DeathLootTable set value "minecraft:empty"
+execute if score mobs_loot lullaby_mobs.settings matches 1 run data modify entity @s DeathLootTable set value "minecraft:blocks/wither_skeleton_skull"

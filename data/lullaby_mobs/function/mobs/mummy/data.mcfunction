@@ -6,4 +6,7 @@ item replace entity @s weapon.mainhand with golden_sword 1
 
 attribute @s minecraft:movement_speed base set 0.2
 
-data merge entity @s {DeathLootTable:"minecraft:blocks/gold_ore",ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],HandDropChances:[0.000F,0.000F]}
+data merge entity @s {ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],HandDropChances:[0.000F,0.000F]}
+
+execute if score mobs_loot lullaby_mobs.settings matches 0 run data modify entity @s DeathLootTable set value "minecraft:empty"
+execute if score mobs_loot lullaby_mobs.settings matches 1 run data modify entity @s DeathLootTable set value "minecraft:blocks/gold_ore"

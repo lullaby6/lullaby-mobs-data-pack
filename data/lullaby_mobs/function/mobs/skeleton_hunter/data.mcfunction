@@ -12,4 +12,7 @@ attribute @s minecraft:max_health base set 40
 attribute @s minecraft:knockback_resistance base set 0.5
 attribute @s minecraft:movement_speed base set 0.3
 
-data merge entity @s {DeathLootTable:"minecraft:chests/jungle_temple",Health:40f,ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],HandDropChances:[0.000F,0.000F]}
+data merge entity @s {Health:40f,ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],HandDropChances:[0.000F,0.000F]}
+
+execute if score mobs_loot lullaby_mobs.settings matches 0 run data modify entity @s DeathLootTable set value "minecraft:empty"
+execute if score mobs_loot lullaby_mobs.settings matches 1 run data modify entity @s DeathLootTable set value "minecraft:chests/jungle_temple"
