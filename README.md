@@ -42,6 +42,11 @@ Version: `1.21.4`
 - Bloody Skeleton
 - Living Cactus
 - Demonic Eye
+- Rush
+- Oni
+- Sculk Knight
+- Guardian Robot
+- Bloody Skeleton
 
 ## Commands
 
