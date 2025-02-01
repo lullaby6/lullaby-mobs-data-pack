@@ -22,4 +22,8 @@ execute if dimension minecraft:the_nether if entity @s[type=blaze] if predicate 
 
 execute if dimension minecraft:the_nether if entity @s[type=piglin_brute] if predicate utils:random/0.01 at @s run return run function lullaby_mobs:natural_spawn/spawn {"mob":"minotaur"}
 
+execute if dimension minecraft:the_nether if entity @s[type=wither_skeleton] if predicate utils:random/0.01 at @s run return run function lullaby_mobs:natural_spawn/spawn {"mob":"dark_wither_skeleton"}
+
+execute if dimension minecraft:the_nether if entity @s[type=blaze] if predicate utils:random/0.01 at @s run return run function lullaby_mobs:natural_spawn/spawn {"mob":"blaze_knight"}
+
 execute if biome ~ ~ ~ minecraft:desert if entity @s[type=husk] if predicate utils:random/0.05 at @s run return run function lullaby_mobs:natural_spawn/spawn {"mob":"mummy"}

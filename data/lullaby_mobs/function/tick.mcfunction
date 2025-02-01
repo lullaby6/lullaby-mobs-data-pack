@@ -42,3 +42,6 @@ execute as @e[tag=lullaby_mobs.skeleton_hunter] at @s run function lullaby_mobs:
 
 # Skeleton Hunter
 execute as @e[tag=lullaby_mobs.spectral_assassin] at @s run function lullaby_mobs:mobs/spectral_assassin/tick
+
+# Blaze Knight
+execute as @e[tag=lullaby_mobs.blaze_knight] at @s run function lullaby_mobs:mobs/blaze_knight/tick

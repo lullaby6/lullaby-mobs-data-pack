@@ -27,6 +27,8 @@ Version: `1.21.4`
 - Thunder Drowned (naturally spawn)
 - Yeti (naturally spawn)
 - Spectral Assassin (naturally spawn)
+- Blaze Knight (naturally spawn)
+- Dark Wither Skeleton (naturally spawn)
 
 ### To Do
 
@@ -39,6 +41,7 @@ Version: `1.21.4`
 - Enye
 - Bloody Skeleton
 - Living Cactus
+- Demonic Eye
 
 ## Commands
 
