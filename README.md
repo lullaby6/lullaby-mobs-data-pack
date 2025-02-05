@@ -10,25 +10,27 @@ Version: `1.21.4`
 
 ## Mobs
 
-### List of mobs
+- Angel
+- Black Wolf
+- Ent
+- Golden Skeleton
+- Iso
+- Minotaur
+- Mummy
+- Skeleton Hunter
+- Spawner Zombie
+- Stalker Block
+- Thunder Drowned
+- Yeti
+- Spectral Assassin
 
-- Angel (naturally spawn)
-- Black Wolf (naturally spawn)
-- Blaze Tower (naturally spawn)
+Nether:
+- Blaze Tower
+- Blaze Knight
+- Dark Wither Skeleton
+
+No Naturally Spawn:
 - Corrupted Irom Golem
-- Ent (naturally spawn)
-- Golden Skeleton (naturally spawn)
-- Iso (naturally spawn)
-- Minotaur (naturally spawn)
-- Mummy (naturally spawn)
-- Skeleton Hunter (naturally spawn)
-- Spawner Zombie (naturally spawn)
-- Stalker Block (naturally spawn)
-- Thunder Drowned (naturally spawn)
-- Yeti (naturally spawn)
-- Spectral Assassin (naturally spawn)
-- Blaze Knight (naturally spawn)
-- Dark Wither Skeleton (naturally spawn)
 
 ## Commands
 
