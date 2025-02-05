@@ -47,6 +47,12 @@ Settings:
 /function lullaby_mobs:settings
 ```
 
+Prevent mobs convert into a custom mobs using `lullaby_mobs.natural_spawn.bypass` tag:
+
+```mcfunction
+/summon skeleton ~ ~ ~ {Tags:["lullaby_mobs.natural_spawn.bypass"]}
+```
+
 Disable:
 
 ```mcfunction
