@@ -2,10 +2,14 @@
     "replace": false,
     "values": [
         "minecraft:zombie",
+        "minecraft:husk",
         "minecraft:drowned",
         "minecraft:skeleton",
         "minecraft:spider",
         "minecraft:wolf",
-        "minecraft:blaze"
+        "minecraft:blaze",
+        "minecraft:piglin_brute",
+        "minecraft:wither_skeleton",
+        "minecraft:enderman"
     ]
 }

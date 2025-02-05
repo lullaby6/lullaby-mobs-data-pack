@@ -14,7 +14,6 @@ Version: `1.21.4`
 - Black Wolf
 - Ent
 - Golden Skeleton
-- Iso
 - Minotaur
 - Mummy
 - Skeleton Hunter
@@ -23,11 +22,16 @@ Version: `1.21.4`
 - Thunder Drowned
 - Yeti
 - Spectral Assassin
+- Bloody Skeleton
+- Cactus Knight
 
 Nether:
 - Blaze Tower
 - Blaze Knight
 - Dark Wither Skeleton
+
+End:
+- Iso
 
 No Naturally Spawn:
 - Corrupted Irom Golem
@@ -68,8 +72,6 @@ MIT
 - Cobweb Spider
 - Chariot
 - Enye
-- Bloody Skeleton
-- Living Cactus
 - Demonic Eye
 - Rush
 - Oni
