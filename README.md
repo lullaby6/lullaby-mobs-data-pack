@@ -75,5 +75,4 @@ MIT
 - Oni
 - Sculk Knight
 - Guardian Robot
-- Bloody Skeleton
 - Snowden
