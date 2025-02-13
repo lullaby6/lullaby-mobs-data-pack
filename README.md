@@ -1,6 +1,6 @@
 # Lullaby's Mobs
 
-More custom mobs!
+Custom hostile mobs!
 
 Version: `1.21.4`
 
