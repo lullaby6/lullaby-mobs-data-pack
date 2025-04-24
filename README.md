@@ -53,21 +53,9 @@ Prevent mobs convert into a custom mobs using `lullaby_mobs.natural_spawn.bypass
 /summon skeleton ~ ~ ~ {Tags:["lullaby_mobs.natural_spawn.bypass"]}
 ```
 
-Disable:
-
-```mcfunction
-/datapack disable "file/lullaby-mobs.zip"
-```
-
-Enable:
-
-```mcfunction
-/datapack enable "file/lullaby-mobs.zip"
-```
-
 ## License
 
-MIT
+AGPLv3
 
 ## Mobs To Do
 
