@@ -45,6 +45,7 @@ No Naturally Spawn:
 - Sculk Knight
 - Guardian Robot
 - Snowden
+- Undying Totem
 
 ## Commands
 
