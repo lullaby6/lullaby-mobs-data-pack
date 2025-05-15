@@ -14,6 +14,6 @@
       }
     },
     "rewards": {
-      "function": "lullaby_mobs:mobs/dark_wither_skeleton/hurt_player"
+      "function": "lullaby_mobs:mob/dark_wither_skeleton/hurt_player"
     }
 }

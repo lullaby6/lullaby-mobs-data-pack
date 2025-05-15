@@ -55,7 +55,7 @@ Prevent mobs convert into a custom mobs using `lullaby_mobs.natural_spawn.bypass
 
 ## License
 
-AGPLv3
+AGPL-3.0-or-later
 
 ## Mobs To Do
 

@@ -1,1 +1,0 @@
-execute summon skeleton run function lullaby_mobs:mobs/golden_skeleton/data

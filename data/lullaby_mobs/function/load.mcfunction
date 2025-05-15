@@ -1,7 +1,5 @@
-function lullaby_mobs:requeriments/load
-
-scoreboard objectives add lullaby_mobs.settings dummy
-execute unless score load lullaby_mobs.settings matches 1 run function lullaby_mobs:settings/reset
+scoreboard objectives add lullaby_mobs.config dummy
+execute unless score load lullaby_mobs.config matches 1 run function lullaby_mobs:config/reset
 
 scoreboard objectives add lullaby_mobs.entity.sound.0 dummy
 scoreboard objectives add lullaby_mobs.entity.sound.1 dummy
