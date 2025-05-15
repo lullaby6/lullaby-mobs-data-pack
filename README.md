@@ -2,12 +2,6 @@
 
 Custom hostile mobs!
 
-Version: `1.21.4`
-
-## Requeriments
-
-- [`Utils Data-Pack`](https://modrinth.com/datapack/lullaby-utils)
-
 ## Mobs
 
 - Angel
@@ -36,27 +30,6 @@ End:
 No Naturally Spawn:
 - Corrupted Irom Golem
 
-## Commands
-
-Settings:
-
-- Toggle Naturally Spawn Mobs
-- Toggle Mobs Loot
-
-```mcfunction
-/function lullaby_mobs:settings
-```
-
-Prevent mobs convert into a custom mobs using `lullaby_mobs.natural_spawn.bypass` tag:
-
-```mcfunction
-/summon skeleton ~ ~ ~ {Tags:["lullaby_mobs.natural_spawn.bypass"]}
-```
-
-## License
-
-AGPL-3.0-or-later
-
 ## Mobs To Do
 
 - Triple Skeleton
@@ -72,3 +45,21 @@ AGPL-3.0-or-later
 - Sculk Knight
 - Guardian Robot
 - Snowden
+
+## Commands
+
+Config:
+
+```mcfunction
+/function lullaby_mobs:config
+```
+
+Prevent mobs convert into a custom mobs using `lullaby_mobs.natural_spawn.bypass` tag:
+
+```mcfunction
+/summon skeleton ~ ~ ~ {Tags:["lullaby_mobs.natural_spawn.bypass"]}
+```
+
+## License
+
+AGPL-3.0-or-later
