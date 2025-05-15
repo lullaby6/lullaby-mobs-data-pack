@@ -13,7 +13,8 @@ attribute @s minecraft:scale base set 1.01
 
 effect give @s invisibility infinite 0 true
 
-data merge entity @s {CustomName:'{"text":"Iso"}',IsImmuneToZombification:1b,Silent:1b,Health:60f,ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],HandDropChances:[0.000F,0.000F]}
+data modify entity @s drop_chances set value {feet:0.000,legs:0.000,head:0.000,body:0.000,mainhand:0.000,offhand:0.000}
+data merge entity @s {CustomName:'{"text":"Iso"}',IsImmuneToZombification:1b,Silent:1b,Health:60f}
 
 function lullaby_mobs:mob/iso/shield/activate
 

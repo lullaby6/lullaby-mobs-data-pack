@@ -11,7 +11,7 @@ attribute @s minecraft:max_health base set 60
 attribute @s minecraft:movement_speed base set 0.4
 attribute @s minecraft:scale base set 1.125
 
-data merge entity @s {Health:60f,ArmorDropChances:[0.000F,0.000F,0.000F,0.000F]}
+data modify entity @s drop_chances set value {feet:0.000,legs:0.000,head:0.000,body:0.000,mainhand:0.000,offhand:0.000}
+data merge entity @s {Health:60f}
 
-execute if score mobs_loot lullaby_mobs.config matches 0 run data merge entity @s {HandDropChances:[0.00F,0.00F]}
-execute if score mobs_loot lullaby_mobs.config matches 1 run data merge entity @s {HandDropChances:[0.25F,0.25F]}
+execute if score mobs_loot lullaby_mobs.config matches 1 run data modify entity @s drop_chances set value {feet:0.000,legs:0.000,head:0.000,body:0.000,mainhand:0.250,offhand:0.250}
