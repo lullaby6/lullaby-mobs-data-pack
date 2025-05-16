@@ -56,22 +56,25 @@ Custom hostile mobs!
 
 </details>
 
-### To Do
+<details>
+    <summary>To Do</summary>
 
-- Triple Skeleton
-- Shadow
-- Necromancer
-- Mother Spider
-- Cobweb Spider
-- Chariot
-- Enye
-- Demonic Eye
-- Rush
-- Oni
-- Sculk Knight
-- Guardian Robot
-- Snowden
-- Undying Totem
+    - Triple Skeleton
+    - Shadow
+    - Necromancer
+    - Mother Spider
+    - Cobweb Spider
+    - Chariot
+    - Enye
+    - Demonic Eye
+    - Rush
+    - Oni
+    - Sculk Knight
+    - Guardian Robot
+    - Snowden
+    - Undying Totem
+
+</details>
 
 ## ⌨️ Commands
 
