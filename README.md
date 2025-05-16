@@ -13,31 +13,48 @@ Custom hostile mobs!
 
 ## 👾 Mobs
 
-- Angel
-- Black Wolf
-- Ent
-- Golden Skeleton
-- Minotaur
-- Mummy
-- Skeleton Hunter
-- Spawner Zombie
-- Stalker Block
-- Thunder Drowned
-- Yeti
-- Spectral Assassin
-- Bloody Skeleton
-- Cactus Knight
+<details>
+    <summary>Mobs</summary>
 
-Nether:
-- Blaze Tower
-- Blaze Knight
-- Dark Wither Skeleton
+    - Angel
+    - Black Wolf
+    - Ent
+    - Golden Skeleton
+    - Minotaur
+    - Mummy
+    - Skeleton Hunter
+    - Spawner Zombie
+    - Stalker Block
+    - Thunder Drowned
+    - Yeti
+    - Spectral Assassin
+    - Bloody Skeleton
+    - Cactus Knight
 
-End:
-- Iso
+</details>
 
-No Naturally Spawn:
-- Corrupted Irom Golem
+<details>
+    <summary>Nether</summary>
+
+    - Blaze Tower
+    - Blaze Knight
+    - Dark Wither Skeleton
+
+</details>
+
+<details>
+    <summary>End</summary>
+
+    - Iso
+
+</details>
+
+<details>
+    <summary>No Naturally Spawn</summary>
+
+    - Corrupted Irom Golem
+
+</details>
 
 ### To Do
 
