@@ -1,3 +1,3 @@
 $function lullaby_mobs:mob/$(mob)/summon
 
-function utils:entity/despawn
+function lullaby_mobs:utils/entity/despawn

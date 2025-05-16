@@ -1,3 +1,6 @@
+# Utils
+function lullaby_mobs:utils/tick
+
 # Natural Spawn
 execute if score naturally_spawn lullaby_mobs.config matches 1 as @e[type=#lullaby_mobs:natural_spawn,tag=!lullaby_mobs.natural_spawn.bypass,tag=!lullaby_mobs.natural_spawn.procced] run function lullaby_mobs:natural_spawn/procced
 
@@ -24,7 +27,7 @@ execute as @e[tag=lullaby_mobs.stalker_block.block] at @s run function lullaby_m
 execute as @e[tag=lullaby_mobs.corrupted_iron_golem] at @s run function lullaby_mobs:mob/corrupted_iron_golem/tick
 
 # Iso
-execute as @e[tag=lullaby_mobs.iso.block_display] unless predicate utils:is/riding run kill @s
+execute as @e[tag=lullaby_mobs.iso.block_display] unless predicate lullaby_mobs:utils/is/riding run kill @s
 
 execute as @e[tag=lullaby_mobs.iso] at @s run function lullaby_mobs:mob/iso/tick
 
