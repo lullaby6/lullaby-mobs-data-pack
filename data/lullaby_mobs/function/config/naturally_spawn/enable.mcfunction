@@ -1,3 +1,3 @@
 scoreboard players set naturally_spawn lullaby_mobs.config 1
 
-function lullaby_mobs:settings
+function lullaby_mobs:cofnig
