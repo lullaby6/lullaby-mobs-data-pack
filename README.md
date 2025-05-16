@@ -9,7 +9,7 @@
 [![Repo Size](https://img.shields.io/github/repo-size/lullaby6/lullaby-mobs-data-pack?logo=dropbox&color=red)](https://github.com/lullaby6/lullaby-mobs-data-pack)
 [![Stars](https://img.shields.io/github/stars/lullaby6/lullaby-mobs-data-pack?logo=github&color=yellow)](https://github.com/lullaby6/lullaby-mobs-data-pack/stargazers)
 
-Custom hostile mobs!
+Make your world more harder by adding custom hostile mobs with custom skills!
 
 ## 👾 Mobs
 
