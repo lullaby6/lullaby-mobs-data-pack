@@ -4,14 +4,14 @@
         "description": [
             {
                 "text": "Lullaby's Mobs",
-                "color": "#7F0000"
+                "color": "#AA0000"
             },
             {
                 "text": " - \nBy ",
                 "color": "gray"
             },
             {
-                "text": "by github.com/lullaby6",
+                "text": "github.com/lullaby6",
                 "color": "#683edd"
             }
         ]
