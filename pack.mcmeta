@@ -1,7 +1,7 @@
 {
-   "pack": {
-      "pack_format": 71,
-      "description": [
+    "pack": {
+        "pack_format": 71,
+        "description": [
             {
                 "text": "Lullaby's Mobs",
                 "color": "#7F0000"
@@ -15,5 +15,5 @@
                 "color": "#683edd"
             }
         ]
-   }
+    }
 }
