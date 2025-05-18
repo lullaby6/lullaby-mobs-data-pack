@@ -1,4 +1,4 @@
-function lullaby:utils/player/clear_chat
+function lullaby_mobs:utils/player/clear_chat
 
 playsound minecraft:ui.button.click master @a ~ ~ ~ .5 2
 
