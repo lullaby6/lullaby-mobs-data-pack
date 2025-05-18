@@ -1,3 +1,4 @@
+tag @s add lullaby_mobs.mob
 tag @s add lullaby_mobs.ent
 tag @s add lullaby_mobs.natural_spawn.bypass
 

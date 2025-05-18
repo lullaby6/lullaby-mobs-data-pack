@@ -1,3 +1,4 @@
+tag @s add lullaby_mobs.mob
 tag @s add lullaby_mobs.minotaur
 tag @s add lullaby_mobs.natural_spawn.bypass
 

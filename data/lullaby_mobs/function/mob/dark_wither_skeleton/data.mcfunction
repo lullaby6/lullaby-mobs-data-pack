@@ -1,3 +1,4 @@
+tag @s add lullaby_mobs.mob
 tag @s add lullaby_mobs.dark_wither_skeleton
 tag @s add lullaby_mobs.natural_spawn.bypass
 
