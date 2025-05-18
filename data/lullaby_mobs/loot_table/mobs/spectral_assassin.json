@@ -17,7 +17,10 @@
                 "function": "set_components",
                 "components": {
                   "minecraft:stored_enchantments": {
-                    "minecraft:efficiency": 3
+                    "levels": {
+                      "minecraft:efficiency": 3
+                    },
+                    "show_in_tooltip": true
                   }
                 }
               }
@@ -36,7 +39,10 @@
                 "function": "set_components",
                 "components": {
                   "minecraft:stored_enchantments": {
-                    "minecraft:unbreaking": 2
+                    "levels": {
+                      "minecraft:unbreaking": 2
+                    },
+                    "show_in_tooltip": true
                   }
                 }
               }
@@ -55,7 +61,10 @@
                 "function": "set_components",
                 "components": {
                   "minecraft:stored_enchantments": {
-                    "minecraft:protection": 2
+                    "levels": {
+                      "minecraft:protection": 2
+                    },
+                    "show_in_tooltip": true
                   }
                 }
               }
@@ -74,7 +83,10 @@
                 "function": "set_components",
                 "components": {
                   "minecraft:stored_enchantments": {
-                    "minecraft:sharpness": 2
+                    "levels": {
+                      "minecraft:sharpness": 2
+                    },
+                    "show_in_tooltip": true
                   }
                 }
               }
